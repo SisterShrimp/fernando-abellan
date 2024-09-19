@@ -1,0 +1,850 @@
+body{
+    font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+width: 100%;
+font-size: 20px;
+}
+
+
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+margin: 0 auto;  
+background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    padding-left: 10px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+       justify-content: flex-start;
+   
+    }
+ }
+
+ @media screen and (max-width: 460px) {
+    .navbar{
+       font-size: 0.7rem;
+       
+   
+    }
+ }
+
+
+.nav-link{
+    padding: 10px;
+}
+
+.navbar-brand{
+    padding-right: 30px;
+    text-wrap: nowrap;
+}
+@media screen and (max-width: 460px) {
+    .navbar-brand{
+       padding:  0px;
+       
+   
+    }
+ }
+.content {
+padding-top: 60px;
+}
+
+
+.page-header ul {
+    list-style-type: none ;
+    display: flex;
+    padding: 0;
+}
+
+.page-header list{
+    float:right;
+    margin-right: 10px;
+
+}
+
+.profileImage {
+    height: auto;
+    max-width: 65%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ border-radius: 50px;
+ overflow: hidden;
+}
+
+.profileTitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+   
+}
+.profileTitle h2 {
+    margin-bottom: 10px;
+}
+
+.profileTitle h3 {
+    margin-bottom: 10px;
+}
+
+.page-header{
+    position: fixed;
+    font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: space-around;
+}
+
+.about{
+    display: flex;
+    padding-top: 50px;
+   
+    
+}
+.network-icon {
+    padding: 0;
+}
+
+
+.network-icon img{
+    height: auto;
+    max-width: 30px;
+ 
+}
+.network-icon li{
+    list-style: none;
+    padding: 0;
+
+}
+.Profile {
+flex: 0.5;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+size: 200px;
+padding-left: 50px;
+padding-right: 20px;
+}
+
+.container1 {
+    flex: 1;
+    flex-wrap: wrap
+
+}
+@media screen and (max-width: 768px) {
+    .about{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .Profile{
+        flex-basis: 100%;
+    }
+ }
+
+ @media screen and (max-width: 460px) {
+    .about{
+        flex-wrap: wrap;
+    }
+    .Profile{
+        flex-basis: 100%;
+        padding: 0;
+    }
+ }
+
+.container1{
+    margin: 10px;
+    max-width: 100%;
+}
+
+
+
+.biographyContainer{
+    margin-left: 40px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    margin-right: 20px;
+ 
+}
+.biographyContainer h1 {
+    margin-bottom: 20px;
+}
+
+.interests {
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+.sub-heading{
+    margin-left: 20px;
+}
+
+
+.article {
+    flex: 1;
+    margin-right: 20px;
+    hyphens: auto;
+}
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+ margin-left: 20px; 
+}
+
+.container2 ul{
+    margin: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+
+
+
+.book {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(resources/book\ 24\ px.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.scholar {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(resources/scholar\ 24\ px.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+    
+
+
+
+
+.Publications{
+    display: grid;
+    grid-template-columns: repeat(auto-fill minmax(300px, 1fr)); ;
+    grid-template-rows: repeat(11, 150px);
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    font-size: 20px;
+    row-gap: 10px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .Publications{
+    padding-left: 40px;
+    }
+ }
+
+ @media screen and (max-width: 460px) {
+    .Publications{
+      grid-template-columns: repeat(auto-fill, 390px);
+      grid-template-rows: auto minmax(5rem, auto);
+      margin-left: 40px;
+      text-wrap: wrap;
+   
+    }
+ }
+
+.PublicationH1 {
+  margin-top: 60px;
+  margin-left: 40px;
+    
+}
+
+
+
+
+ @media screen and (max-width: 460px) {
+    .Publications h1{
+      margin-left: 40px;
+       max-width: 100%;
+   
+    }
+ }
+
+
+.publication  {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(resources/fille.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 20px;
+     
+}
+
+.pdf{
+    border: 1px ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    background-color:  #eee;;
+    color: #000000;
+    padding: 0.769rem 1.315rem;
+    margin-right: 10px;
+   
+
+}
+
+
+
+
+.cite{
+    border: 1px ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    background-color:  #eee;;
+    color: #000000;
+    padding: 0.769rem 1.315rem;
+    
+   
+}
+
+
+.Publication1{
+    grid-area:  2 / 0 / 2 / 2;
+    margin-bottom: 50px;
+
+}
+
+.Publication2 {
+    grid-area: 2 / 1 / 2 / 2;
+    margin-bottom: 50px;
+}
+
+.Publication3 {
+    grid-area: 3 / 1 / 3 / 2;
+    margin-bottom: 50px;
+}
+
+.Publication4 {
+    grid-area: 4 / 1 / 4 / 2;
+    margin-bottom: 50px;
+}  
+
+.Publication5{
+    grid-area: 5 / 1 / 5 / 2;
+    margin-bottom: 50px;
+
+}
+.Publication6{
+    grid-area: 6 / 1 / 6 / 2;
+    margin-bottom: 50px;
+}
+.AllPub{
+    grid-area: 7 / 1 / 7 / 2;
+
+  margin-bottom: 50px;
+}
+
+.Publication1 .pdf{
+    margin-top: 20px;
+}
+
+.talks{
+    margin-left: 40px;
+}
+
+.Talklist {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill minmax(300px, 1fr)) ;
+    grid-template-rows: repeat(7, 150px);
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 50px;
+    font-size: 20px;
+    row-gap: 30px;
+    padding-right: 190px;
+    padding-left: 40px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .Talklist{
+ 
+    justify-content: start;
+    }
+ }
+
+.Seminar1 {
+    grid-area:  2 / 0 / 2 / 2;
+
+   
+}
+
+.Seminar2 {
+    grid-area: 2 / 1 / 2 / 2;
+    align-self: center;
+
+}
+
+.Seminar3 {
+    grid-area: 3 / 1 / 3 / 2;
+    align-self: center;
+
+}
+
+.Seminar4 {
+    grid-area: 4 / 1 / 4 / 2;
+    align-self: center;
+
+}
+
+.Seminar5{
+    grid-area: 5 / 1 / 5 / 2;
+    align-self: center;
+
+}
+.Seminar6{
+    grid-area: 6 / 1 / 6 / 2;
+    align-self: center;
+
+}
+
+
+
+.Talklist p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contactmail{
+    list-style: none;
+    padding: 50px 160px;
+    background-image: url(resources/email64p.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+
+.contactlocation{
+    list-style: none;
+    padding: 50px 160px;
+    background-image: url(resources/location64.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ 
+   
+}
+
+@media screen and (max-width: 460px) {
+    .contactlocation{
+  padding:40px;
+  text-wrap: nowrap;
+  list-style: none;
+    padding: px;
+    background-image: url(resources/location24.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    }
+ }
+
+
+@media screen and (max-width: 460px) {
+    .contactmail{
+  
+  text-wrap: nowrap;
+  list-style: none;
+    padding: 40px;
+    background-image: url(resources/email24.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    }
+ }
+
+
+.contactH1 {
+    margin-left: 40px;
+}
+
+.contactlist {
+    list-style: none;
+    display: grid;
+ grid-template-columns: repeat(auto-fill minmax(250px, 1fr)); ;
+    grid-template-rows: 120px 120px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 150px;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 460px) {
+    .contactlist{
+        grid-template-columns: repeat(auto-fill, 250px);
+        grid-template-rows: auto minmax(5rem, auto);
+    justify-content: space-between;
+   margin-left: 40px;
+    }
+ }
+
+
+
+.Contact2{
+    grid-area: 2 / 1 / 2 / 2;
+    text-wrap: nowrap;
+}
+
+.contactlist h1{
+   margin-bottom: 50px;
+}
+
+.SeminarPage {
+    font-size: 20px;
+    padding-top: 80px;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 460px) {
+    .Seminarheader{
+ padding-left: 20px;
+ padding-right: 20px;
+    }
+ }
+
+.SeminarInfo{
+    display: grid;
+    grid-template-rows: repeat(3, 80px);
+    grid-template-columns: 200px 400px;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 460px) {
+    .SeminarInfo{
+        grid-template-columns: repeat(auto-fill, 400px);
+        grid-template-rows: auto minmax(5rem, auto);
+row-gap: 20px;
+padding-top: 50px;
+padding-bottom: 20px;
+justify-items: baseline;
+    }
+ }
+
+
+.Publicationheader {
+    text-align: center;
+}
+
+.SeminarDate, .SDate, .SeminarLocation, .SLocation, .SeminarEvent, .SEvent {
+    align-self: center;
+}
+
+@media screen and (max-width: 460px) {
+    .SDate {
+align-self: auto;
+    }
+ }
+
+@media screen and (max-width: 460px) {
+    .SEvent {
+ 
+  margin-bottom: 25px;
+text-decoration: solid;
+    }
+ }
+
+ @media screen and (max-width: 460px) {
+    .SLocation {
+ 
+  margin-bottom: 25px;
+    }
+ }
+
+.authorCard{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 50px;
+    border-top: solid;
+    padding-bottom: 30px;
+
+}
+
+.authorCard .cardTitle {
+    padding-bottom: 10px;
+}
+
+.authorCard .cardSubtitle{
+    padding-bottom: 10px;
+}
+
+.authorCard .cardText {
+    padding-bottom: 10px;
+}
+
+.authorCard .network-icon img{
+    margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+    .AuthorCard{
+        flex-wrap: wrap;
+    }
+    .mediabody{
+        flex-basis: 100%;
+    }
+     }
+
+
+ @media screen and (max-width: 460px) {
+    .authorCard{
+        flex-wrap: wrap;
+     width: 400px;
+    }
+    .mediabody{
+        flex-basis: 100%;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+ }
+
+
+
+.avatarCircle{
+    height: 100px;
+    width: auto;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.mediabody{
+    flex: 1;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    margin-top: 20px;
+
+}
+
+.Seminarheader {
+    text-align: center;
+}
+
+
+
+.publicationCard{
+    
+    padding-top: 50px;
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+   
+}
+
+.publicationProfile {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.publicationProfile h1{
+    padding-bottom: 20px;
+}
+
+.aboutPublication{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutPublication h2 {
+    padding-bottom: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  
+
+.modal{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 450px;
+    padding: 1.3rem;
+    min-height: 250px;
+    position: fixed;
+    top: 20%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  
+}
+
+
+.modal .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  
+  .modal p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  button:hover{
+   background-color: rgb(178, 220, 178);
+  }
+
+  button:active{
+    border-color: rgb(0, 1, 0);
+    background-color: darkgreen;
+   
+  }
+  
+  .btn {  
+    padding: 0.8rem 1.4rem;
+    border-radius: 5px;
+    text-align: center;
+   
+  }
+  
+ 
+  .btn-close {
+    transform: translate(10px, -20px);
+    padding: 0.5rem 0.7rem;
+    margin-top: 25px;
+    margin-right: 10px;
+    background: #eee;
+    border-radius: 50% ;
+  }
+
+
+  .pdf:hover{
+    background-color: rgb(178, 220, 178);
+   }
+ 
+   .pdf:active{
+     border-color: rgb(0, 1, 0);
+     background-color: darkgreen;
+    
+   }
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+
+
+  .hidden {
+    display: none;
+  }
+  
+
+  .copyButton{
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .btn-copy{
+      position: relative;
+    display: inline-block;
+float: right;
+padding: 0.8rem 1.4rem;
+border-radius: 5px;
+
+  }
+
+  .btn-copy:active{
+    transition: background-color .10s ease-out;
+    box-shadow: 0 0 0 .2rem rgba(60, 119, 85, .5);
+  }
+
+  a:visited {
+    color: darkgreen;
+  }
+
+  .pdf a:visited{
+    color: black;
+  }
+
+
+  .copy-link{
+    --height: 36px;
+    display: flex;
+    max-width: 330px;
+  }
+
+.copy-link-input{
+    flex-grow: 1;
+    padding: 0 0px;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-right: none;
+    outline: none;
+}
+
+.copy-link-button:hover{
+    background:#b4d1af;
+}
+
+.copy-link-button{
+    flex-shrink: 0;
+    width: var(--height) ;
+    height: var(--height);
+display: flex;
+align-items: center;
+justify-content: center;
+background: #ddd;
+color: #333;
+outline: 1px solid #ccc;
+cursor: pointer;
+}
