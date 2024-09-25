@@ -848,3 +848,18 @@ color: #333;
 outline: 1px solid #ccc;
 cursor: pointer;
 }
+
+.container2 {
+  display: flex;
+  justify-content: space-between; /* Aligns items with space between them */
+  gap: 20px; /* Adds space between the lists */
+}
+
+.interests, .education {
+  flex: 1; /* Allows the divs to take up equal space */
+}
+
+ul {
+  list-style-type: none; /* Removes default bullets (optional) */
+  padding: 0;
+}
