@@ -512,7 +512,7 @@ text-wrap: balance;
 
 @media screen and (max-width: 480px) {
     .contactH1{
-    
+    padding-bottom: 0;
         width: 480px;
   
     }
