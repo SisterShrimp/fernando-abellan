@@ -283,7 +283,6 @@ padding-right: 20px;
  @media screen and (max-width: 480px) {
     .PublicationH1{
       
-       max-width: 100%;
         width: 480px;
    
     }
