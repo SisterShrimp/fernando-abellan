@@ -584,7 +584,8 @@ text-wrap: balance;
 row-gap: 20px;
 padding-top: 50px;
 padding-bottom: 20px;
-        jusitfy-items: center;
+        justify-items: baseline;
+        width: 480px;
         
 
     }
