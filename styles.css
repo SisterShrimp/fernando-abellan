@@ -217,7 +217,7 @@ padding-right: 20px;
 .book {
     list-style: none;
     padding: 10px 30px;
-    background-image: url("/book24.png");
+    background-image: url("./book24.png");
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -225,7 +225,7 @@ padding-right: 20px;
 .scholar {
     list-style: none;
     padding: 10px 30px;
-    background-image: url("scholar24.png");
+    background-image: url(".../Fernandos-Webpage/resources/scholar24.png");
     background-repeat: no-repeat;
     background-position: left;
     
