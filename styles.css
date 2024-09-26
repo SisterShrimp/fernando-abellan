@@ -674,7 +674,7 @@ text-decoration: solid;
  @media screen and (max-width: 480px) {
     .authorCard{
         flex-wrap: wrap;
-     width: 400px;
+     width: 480px;
     }
     .mediabody{
         flex-basis: 100%;
