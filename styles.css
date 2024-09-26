@@ -737,6 +737,13 @@ padding-right: 10px;
   
 }
 
+@media screen and (max-width: 480px) {
+    .modal {
+width: 412px;
+   
+    }
+ }
+
 
 .modal .flex {
     display: flex;
