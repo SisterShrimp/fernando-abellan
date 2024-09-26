@@ -115,7 +115,7 @@ padding-top: 60px;
    
     
 }
-.network-icon {
+.Profile .network-icon {
     padding: 0;
     padding-top: 20px
 }
@@ -628,9 +628,8 @@ text-decoration: solid;
 .authorCard .cardSubtitle{
     padding-bottom: 10px;
 }
-
-.authorCard .cardText {
-    padding-bottom: 10px;
+.authorCard .network-icon {
+    margin-left: 20px;
 }
 
 .authorCard .network-icon img{
