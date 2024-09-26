@@ -57,7 +57,7 @@ background-color: #ffffff;
 
  @media screen and (max-width: 480px) {
     .seminarNav .navbar{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         
         
         
@@ -576,6 +576,12 @@ text-wrap: balance;
  padding-left: 20px;
  padding-right: 20px;
         text-align: left;
+    }
+ }
+
+@media screen and (max-width: 480px) {
+    .SeminarPage{
+width:480px;
     }
  }
 
