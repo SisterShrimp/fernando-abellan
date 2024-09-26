@@ -668,6 +668,13 @@ text-decoration: solid;
    
 }
 
+@media screen and (max-width: 480px) {
+    .publicationProfile h1{
+font-size: 25px;
+   
+    }
+ }
+
 .publicationProfile {
     padding-bottom: 30px;
     padding-top: 20px;
