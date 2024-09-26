@@ -155,7 +155,7 @@ padding-right: 20px;
     }
  }
 
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 480px) {
     .about{
         flex-wrap: wrap;
     }
@@ -254,7 +254,7 @@ padding-right: 20px;
     }
  }
 
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 480px) {
     .Publications{
       grid-template-columns: repeat(auto-fill, 390px);
       grid-template-rows: auto minmax(5rem, auto);
@@ -273,7 +273,7 @@ padding-right: 20px;
 
 
 
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 480px) {
     .Publications h1{
       margin-left: 40px;
        max-width: 100%;
@@ -388,7 +388,7 @@ padding-right: 20px;
     }
  }
 
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 480px) {
     .Talklist{
  margin: 0;
 text-wrap: balance;
@@ -457,7 +457,7 @@ text-wrap: balance;
    
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .contactlocation{
   padding:40px;
   text-wrap: nowrap;
@@ -470,7 +470,7 @@ text-wrap: balance;
  }
 
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .contactmail{
   
   text-wrap: nowrap;
@@ -499,7 +499,7 @@ text-wrap: balance;
     padding-left: 40px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .contactlist{
         grid-template-columns: repeat(auto-fill, 250px);
         grid-template-rows: auto minmax(5rem, auto);
@@ -526,7 +526,7 @@ text-wrap: balance;
 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .Seminarheader{
  padding-left: 20px;
  padding-right: 20px;
@@ -542,7 +542,7 @@ text-wrap: balance;
     padding-top: 20px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .SeminarInfo{
         grid-template-columns: repeat(auto-fill, 400px);
         grid-template-rows: auto minmax(5rem, auto);
@@ -562,13 +562,13 @@ justify-items: baseline;
     align-self: center;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .SDate {
 align-self: auto;
     }
  }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .SEvent {
  
   margin-bottom: 25px;
@@ -576,7 +576,7 @@ text-decoration: solid;
     }
  }
 
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 480px) {
     .SLocation {
  
   margin-bottom: 25px;
@@ -622,7 +622,7 @@ text-decoration: solid;
      }
 
 
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 480px) {
     .authorCard{
         flex-wrap: wrap;
      width: 400px;
@@ -814,7 +814,9 @@ border-radius: 5px;
     transition: background-color .10s ease-out;
     box-shadow: 0 0 0 .2rem rgba(60, 119, 85, .5);
   }
-
+a:link{
+    color: lightgreen;
+  }
   a:visited {
     color: darkgreen;
   }
