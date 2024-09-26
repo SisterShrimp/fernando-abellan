@@ -871,10 +871,10 @@ border-radius: 5px;
     box-shadow: 0 0 0 .2rem rgba(60, 119, 85, .5);
   }
 a:link{
-    color: rgb(146, 132, 11);
+    color: darkgreen;
   }
   a:visited {
-    color: darkgreen;
+    color: rgb(146, 132, 11);
   }
 
   .pdf a:visited{
