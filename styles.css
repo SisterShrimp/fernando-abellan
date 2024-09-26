@@ -450,7 +450,7 @@ text-wrap: balance;
 .contactlocation{
     list-style: none;
     padding: 50px 160px;
-    background-image: url('../Fernandos-Webpage/resources/location64.png');
+    background-image: url('location64.png');
     background-repeat: no-repeat;
     background-position: left;
  
@@ -463,7 +463,7 @@ text-wrap: balance;
   text-wrap: nowrap;
   list-style: none;
     padding: px;
-    background-image: url('../Fernandos-Webpage/resources/location24.png');
+    background-image: url('location24.png');
     background-repeat: no-repeat;
     background-position: left;
     }
