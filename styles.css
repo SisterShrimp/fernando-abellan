@@ -48,12 +48,13 @@ background-color: #ffffff;
 }
 
 .navbar-brand{
-    padding-right: 30px;
+    padding-right: 190px;
     text-wrap: nowrap;
 }
 @media screen and (max-width: 480px) {
     .navbar-brand{
        padding:  0px;
+        padding-right: 20px;
        
    
     }
