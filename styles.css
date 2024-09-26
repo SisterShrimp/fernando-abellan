@@ -282,10 +282,11 @@ padding-right: 20px;
 
  @media screen and (max-width: 480px) {
     .Publications{
-      grid-template-columns: repeat(auto-fill, 390px);
+      grid-template-columns: repeat(auto-fill, 480px);
       grid-template-rows: auto minmax(5rem, auto);
-     width: 480px;
+     width: 600px;
       text-wrap: wrap;
+        padding-left:0;
    
     }
  }
@@ -304,7 +305,7 @@ padding-right: 20px;
  @media screen and (max-width: 480px) {
     .PublicationH1{
       
-        width: 480px;
+        width: 600px;
    
     }
  }
@@ -534,7 +535,7 @@ text-wrap: balance;
 @media screen and (max-width: 480px) {
     .contactH1{
     padding-bottom: 0;
-        width: 480px;
+        width: 600px;
   
     }
  }
@@ -558,7 +559,7 @@ text-wrap: balance;
         grid-template-columns: repeat(auto-fill, 250px);
         grid-template-rows: auto minmax(5rem, auto);
     justify-content: space-between;
-        width: 480px;
+        width: 600px;
   
     }
  }
