@@ -285,7 +285,7 @@ padding-right: 20px;
 .publication  {
     list-style: none;
     padding: 10px 30px;
-    background-image: url".../fille.png");
+    background-image: url('fille.png');
     background-repeat: no-repeat;
     background-position: left;
     margin-bottom: 20px;
@@ -441,7 +441,7 @@ text-wrap: balance;
 .contactmail{
     list-style: none;
     padding: 50px 160px;
-    background-image: url(".../email64.png");
+    background-image: url('email64.png');
     background-repeat: no-repeat;
     background-position: left;
    
@@ -450,7 +450,7 @@ text-wrap: balance;
 .contactlocation{
     list-style: none;
     padding: 50px 160px;
-    background-image: url(".../location64.png");
+    background-image: url('location64.png');
     background-repeat: no-repeat;
     background-position: left;
  
@@ -463,7 +463,7 @@ text-wrap: balance;
   text-wrap: nowrap;
   list-style: none;
     padding: px;
-    background-image: url(".../locatio24.png");
+    background-image: url('location24.png');
     background-repeat: no-repeat;
     background-position: left;
     }
@@ -476,7 +476,7 @@ text-wrap: balance;
   text-wrap: nowrap;
   list-style: none;
     padding: 40px;
-    background-image: url(".../email24.png");
+    background-image: url('email24.png');
     background-repeat: no-repeat;
     background-position: left;
     }
