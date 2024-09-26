@@ -441,7 +441,7 @@ text-wrap: balance;
 .contactmail{
     list-style: none;
     padding: 50px 160px;
-    background-image: url('../Fernandos-Webpage/resources/email64.png');
+    background-image: url('email64.png');
     background-repeat: no-repeat;
     background-position: left;
    
@@ -476,7 +476,7 @@ text-wrap: balance;
   text-wrap: nowrap;
   list-style: none;
     padding: 40px;
-    background-image: url('../Fernandos-Webpage/resources/email24.png');
+    background-image: url('email24.png');
     background-repeat: no-repeat;
     background-position: left;
     }
