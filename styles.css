@@ -280,7 +280,7 @@ padding-right: 20px;
 
 
  @media screen and (max-width: 480px) {
-    .Publications h1{
+    .PublicationsH1{
       margin-left: 40px;
        max-width: 100%;
         width: 480px;
