@@ -159,6 +159,7 @@ padding-right: 20px;
  @media screen and (max-width: 480px) {
     .about{
         flex-wrap: wrap;
+        width: 480px;
     }
     .Profile{
         flex-basis: 100%;
@@ -260,7 +261,7 @@ padding-right: 20px;
     .Publications{
       grid-template-columns: repeat(auto-fill, 390px);
       grid-template-rows: auto minmax(5rem, auto);
-     
+     width: 480px;
       text-wrap: wrap;
    
     }
@@ -270,6 +271,7 @@ padding-right: 20px;
     padding-top: 60px;
   padding-left: 40px;
   background-color:rgba(203, 203, 151, 0.3);
+    widtth: 480px;
     
 }
 
@@ -491,8 +493,17 @@ text-wrap: balance;
     padding-bottom: 50px;
     padding-top: 50px;
     background-color:rgba(203, 203, 151, 0.3);
+    
 
 }
+
+@media screen and (max-width: 480px) {
+    .contactH1{
+    
+        width: 480px;
+  
+    }
+ }
 
 .contactlist {
     list-style: none;
@@ -505,6 +516,7 @@ text-wrap: balance;
     margin-bottom: 150px;
     padding-left: 40px;
     background-color:rgba(203, 203, 151, 0.3);
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -512,6 +524,7 @@ text-wrap: balance;
         grid-template-columns: repeat(auto-fill, 250px);
         grid-template-rows: auto minmax(5rem, auto);
     justify-content: space-between;
+        width: 480px;
   
     }
  }
