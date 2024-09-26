@@ -34,7 +34,7 @@ background-color: #ffffff;
     }
  }
 
- @media screen and (max-width: 460px) {
+ @media screen and (max-width: 480px) {
     .navbar{
        font-size: 0.7rem;
        
@@ -51,7 +51,7 @@ background-color: #ffffff;
     padding-right: 30px;
     text-wrap: nowrap;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .navbar-brand{
        padding:  0px;
        
