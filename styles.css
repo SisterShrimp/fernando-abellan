@@ -815,7 +815,7 @@ border-radius: 5px;
     box-shadow: 0 0 0 .2rem rgba(60, 119, 85, .5);
   }
 a:link{
-    color: lightgreen;
+    color: rgb(3, 47, 3);
   }
   a:visited {
     color: darkgreen;
