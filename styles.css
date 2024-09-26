@@ -394,6 +394,15 @@ padding-right: 20px;
     margin-top: 150px;
 }
 
+ @media screen and (max-width: 480px) {
+    .talks{
+      
+     width: 480px;
+    
+   
+    }
+ }
+
 .Talklist {
     list-style: none;
     display: grid;
@@ -420,6 +429,8 @@ padding-right: 20px;
     .Talklist{
  margin: 0;
 text-wrap: balance;
+        width: 480px;
+        
     
     }
  }
