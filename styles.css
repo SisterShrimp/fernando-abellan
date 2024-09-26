@@ -55,6 +55,16 @@ background-color: #ffffff;
  }
 
 
+ @media screen and (max-width: 480px) {
+    .seminarNav .navbar{
+        font-size: 0.7rem;
+        
+        
+        
+    
+     }
+  }
+
 .nav-link{
     padding: 10px;
 }
@@ -584,8 +594,8 @@ text-wrap: balance;
 row-gap: 20px;
 padding-top: 50px;
 padding-bottom: 20px;
-        justify-items: baseline;
-        width: 480px;
+justify-items: baseline;
+width: 480px;
         
 
     }
