@@ -246,6 +246,7 @@ padding-right: 20px;
     row-gap: 30px;
     padding-bottom: 50px;
     padding-left: 40px;
+     background-color:rgba(203, 203, 151, 0.3);
 }
 
 @media screen and (max-width: 768px) {
@@ -265,8 +266,9 @@ padding-right: 20px;
  }
 
 .PublicationH1 {
-  margin-top: 60px;
-  margin-left: 40px;
+    padding-top: 60px;
+  padding-left: 40px;
+  background-color:rgba(203, 203, 151, 0.3);
     
 }
 
@@ -484,7 +486,11 @@ text-wrap: balance;
 
 
 .contactH1 {
-    margin-left: 40px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color:rgba(203, 203, 151, 0.3);
+
 }
 
 .contactlist {
@@ -497,6 +503,7 @@ text-wrap: balance;
     font-size: 20px;
     margin-bottom: 150px;
     padding-left: 40px;
+    background-color:rgba(203, 203, 151, 0.3);
 }
 
 @media screen and (max-width: 480px) {
@@ -513,6 +520,7 @@ text-wrap: balance;
 .Contact2{
     grid-area: 2 / 1 / 2 / 2;
     text-wrap: nowrap;
+    padding-bottom: 50px;
 }
 
 .contactlist h1{
