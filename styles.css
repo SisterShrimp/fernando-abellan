@@ -7,9 +7,31 @@ body{
 width: 100%;
 font-size: 20px;
 }
+html, body {    width: 100%;    max-width: 100%;
+overflow: auto;}
 
 
+@media screen and (max-width: 480px) {
+    body{
+        width: 480px;
+       
+     
+       
+        
+    
+     }
+  }
 
+  @media screen and (max-width: 480px) {
+    .content{
+        width: 480px;
+       
+     
+       
+        
+    
+     }
+  }
 
 
 .navbar {
@@ -284,7 +306,7 @@ padding-right: 20px;
     .Publications{
       grid-template-columns: repeat(auto-fill, 480px);
       grid-template-rows: auto minmax(5rem, auto);
-     width: 600px;
+     width: 480px;
       text-wrap: wrap;
         padding-left:0;
         paddig-right: 40px;
@@ -306,7 +328,7 @@ padding-right: 20px;
  @media screen and (max-width: 480px) {
     .PublicationH1{
       
-        width: 600px;
+        width: 480px;
    
     }
  }
@@ -536,7 +558,7 @@ text-wrap: balance;
 @media screen and (max-width: 480px) {
     .contactH1{
     padding-bottom: 0;
-        width: 600px;
+        width: 480px;
   
     }
  }
@@ -560,7 +582,7 @@ text-wrap: balance;
         grid-template-columns: repeat(auto-fill, 250px);
         grid-template-rows: auto minmax(5rem, auto);
     justify-content: space-between;
-        width: 600px;
+        width: 480px;
   
     }
  }
