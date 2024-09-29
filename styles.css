@@ -878,12 +878,14 @@ padding-right: 10px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 15px;
+    margin-left: 100px;
   
 }
 
 @media screen and (max-width: 480px) {
     .modal {
 width: 412px;
+margin-left: 35px;
    
     }
  }
