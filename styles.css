@@ -65,16 +65,6 @@ width: 480px;
     }
  }
 
- @media screen and (max-width: 480px) {
-   .active .navbar{
-       font-size: 0.6rem;
-      
-    
-      
-       
-   
-    }
- }
 
 
  @media screen and (max-width: 480px) {
@@ -326,7 +316,7 @@ padding-right: 20px;
 
  @media screen and (max-width: 480px) {
     .PublicationH1{
-      
+   
         width: 480px;
    
     }
@@ -618,6 +608,13 @@ text-wrap: balance;
 width:480px;
     }
  }
+ @media screen and (max-width: 480px) {
+.Seminarheader{
+font-size: 30px;
+   text-align: center;
+    }
+ }
+
 
 .SeminarInfo{
     display: grid;
@@ -650,6 +647,26 @@ width: 480px;
 .SeminarDate, .SDate, .SeminarLocation, .SLocation, .SeminarEvent, .SEvent {
     align-self: center;
 }
+
+@media screen and (max-width: 480px) {
+    .SeminarDate {
+ text-decoration: underline;
+ 
+    }
+ }
+ @media screen and (max-width: 480px) {
+    .SeminarLocation{
+ text-decoration: underline;
+ 
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+    .SeminarEvent {
+ text-decoration: underline;
+ 
+    }
+ }
 
 @media screen and (max-width: 480px) {
     .SDate {
@@ -758,12 +775,29 @@ text-decoration: solid;
    
 }
 
+
 @media screen and (max-width: 480px) {
-    .publicationProfile h1{
-font-size: 25px;
-   
+    .publicationCard .pdf{
+margin-left: 50px;
     }
  }
+
+@media screen and (max-width: 480px) {
+    .publicationProfile h1{
+font-size: 30px;
+   text-align: center;
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+    .publicationProfile{
+
+   text-align: center;
+   padding-left: 40px;
+    }
+ }
+
+
 
 .publicationProfile {
     padding-bottom: 30px;
@@ -782,7 +816,14 @@ font-size: 25px;
     .aboutPublication p {
 padding-left: 10px;
 padding-right: 10px;
-text-wrap: wrap;
+text-wrap: pretty;
+   
+    }
+ }
+ @media screen and (max-width: 480px) {
+    .aboutPublication  {
+padding-left: 40px;
+
    
     }
  }
