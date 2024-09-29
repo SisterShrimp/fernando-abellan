@@ -787,7 +787,11 @@ text-decoration: solid;
     margin: 0 auto;
    
 }
-
+@media screen and (max-width: 480px) {
+    .publicationCard {
+width: 480px;
+    }
+ }
 
 @media screen and (max-width: 480px) {
     .publicationCard .pdf{
@@ -799,6 +803,8 @@ margin-left: 50px;
     .publicationProfile h1{
 font-size: 30px;
    text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
     }
  }
 
@@ -806,7 +812,7 @@ font-size: 30px;
     .publicationProfile{
 
    text-align: center;
-   padding-left: 40px;
+
     }
  }
 
@@ -818,6 +824,7 @@ font-size: 30px;
 }
 .publicationProfile h1{
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .aboutPublication{
@@ -835,7 +842,8 @@ text-wrap: pretty;
  }
  @media screen and (max-width: 480px) {
     .aboutPublication  {
-padding-left: 40px;
+padding-left: 20px;
+padding-right: 20px;
 
    
     }
