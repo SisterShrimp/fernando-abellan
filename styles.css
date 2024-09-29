@@ -45,7 +45,7 @@ background-color: #ffffff;
     display: flex;
     align-items: center;
     z-index: 10;
-    padding-left: 10px;
+    padding-left: 40px;
     
 }
 
@@ -60,7 +60,7 @@ background-color: #ffffff;
     .navbar{
        font-size: 0.8rem;
 width: 480px;
-       
+      padding-left: 10px; 
    
     }
  }
@@ -82,7 +82,7 @@ width: 480px;
 }
 
 .navbar-brand{
-    padding-right: 190px;
+    padding-right: 40px;
     text-wrap: nowrap;
 }
 @media screen and (max-width: 480px) {
@@ -93,6 +93,18 @@ width: 480px;
    
     }
  }
+
+.nav-item{
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-item{
+      padding-left: 0px;
+   
+    }
+ }
+
 .content {
 padding-top: 60px;
 }
@@ -147,6 +159,7 @@ padding-top: 60px;
 .about{
     display: flex;
     padding-top: 50px;
+    margin-bottom: 100px;
    
     
 }
