@@ -1,117 +1,26 @@
- 
-document.querySelectorAll('.copy-link').forEach((copyLinkContainer)=> {
-    const inputField = copyLinkContainer.querySelector('.copy-link-input');
-    const copyButton = copyLinkContainer.querySelector('.copy-link-button');
-   
-    
-    inputField.addEventListener('focus', () => inputField.select());
-    
-    copyButton.addEventListener('click', () => {
-    const text = inputField.value;
-    inputField.select();
-    navigator.clipboard.writeText(text);
-inputField.value = 'Copied!';
-setTimeout(() => inputField.value = text, 2000);
-
-    });
-    });
-    
-    
- 
- 
- 
- const modal = document.querySelector(".modal");
-  const overlay = document.querySelector(".overlay");
- const openModalBtn = document.querySelector(".btn-open");
-  const closeModalBtn = document.querySelector(".btn-close");
-
-
-
-
-
-  const openModal = function () {
-     modal.classList.remove("hidden");
-      overlay.classList.remove("hidden");
-
-  };
-
- openModalBtn.addEventListener("click" , openModal);
-
-
-  const closeModal = function (){
-      modal.classList.add("hidden");
-      overlay.classList.add("hidden");
-  };
-
-  closeModalBtn.addEventListener("click" , closeModal);
-
-  overlay.addEventListener("click", closeModal);
-
-
-
-let text = document.getElementById("Text").innerHTML;
-const copyContent = async () => {
+const copyButton = document.querySelector('[data-copy]');
+if (copyButton) {
+  copyButton.addEventListener('click', async () => {
+    const status = document.querySelector('.copy-status');
     try {
-        await navigator.clipboard.writeText(text);
-        console.log("Copied to Clipboard!");
-    } catch (err) {
-        console.log("Failed to Copy: ", err)
+      await navigator.clipboard.writeText(copyButton.dataset.copy);
+      status.textContent = 'Email address copied.';
+    } catch {
+      status.textContent = 'Select the email address above to copy it.';
     }
+  });
 }
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // Get the modal
-// var modal = document.getElementsByClassName('modal');
-
-// // Get the button that opens the modal
-// var btn = document.getElementsByClassName("btn-open");
-
-
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("btn-close");
-
-// var overlay =document.getElementsByClassName("overlay hidden");
-
-
-// // When the user clicks the button, open the modal 
-// btn[0].onclick = function() {
-//     modal[0].style.display = "block";
-// }
-
-// btn[1].onclick = function() {
-//     modal[1].style.display = "block";
-// }
-// // When the user clicks on <span> (x), close the modal
-// span[0].onclick = function() {
-//     modal[0].style.display = "none";
-// }
-
-// span[1].onclick = function() {
-//     modal[1].style.display = "none";
-// }
-// // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//     if (event.target == modal[0]) {
-//          modal[0].style.display = "none";
-//      }
-//     if (event.target == modal[1]) {
-//          modal[1].style.display = "none";
-//      }  
-//      }
+const sections = [...document.querySelectorAll('main > section[id]')];
+const links = [...document.querySelectorAll('.site-header nav a')];
+if (sections.length && 'IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      links.forEach(link => {
+        if (link.hash === `#${entry.target.id}`) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    });
+  }, { rootMargin: '-15% 0px -60% 0px', threshold: 0 });
+  sections.forEach(section => observer.observe(section));
+}
